@@ -34,6 +34,6 @@ services:
             PMA_USER: '${DB_USERNAME}'
             PMA_PASSWORD: '${DB_PASSWORD}'
         ports:
-            - "8805"
+            - "8805:80"
 volumes:
     db: {}
